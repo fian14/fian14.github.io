@@ -10,48 +10,30 @@
 body {background:url(../images/BG.jpg); margin:0px; padding:0px; font-family:hansen; font-size:20px;}
 .container {width:1100px; margin:auto;}
 *{margin:0px; padding:0px;}
-.fixedheader {
-    position: fixed;
-    top:0; left:0; right:0px; z-index:2000;
-    width: 100%;}
-
 .clearfix{clear:both;}
 
 
-/**iframe {width:100%; height:100%; border:0px; margin:0px; padding:0px; }
- **/
-.sliderwrapper .slides h5{color:#cf0f1e; font-family:Economica-Bold; font-size:34px; margin-bottom:30px; margin-left:45px;}
-.sliderwrapper .slides p{color:#454242; font-family:arial; width:530px; line-height:2em; font-weight:bold; font-size:18px;
+h5{color:#cf0f1e; font-family:Economica-Bold; font-size:39px; margin-bottom:30px; margin-left:45px;}
+.slides p{color:#454242; font-family:arial; width:530px; line-height:2em; font-weight:bold; font-size:18px;
 float:left; margin-left:45px;}
 .sliderwrapper .slides img .gambar1 {float:right; margin-right:150px;}
 .gambar1 {width: 400px; height: 60%; margin-left:  120px; margin-top: -90px}
 
 
-
-
-
 /*||||||||||||||||||||||||||||||||| HEADER ||||||||||||||||||||||||||||||*/
 
-.headerwrapper{background:white; overflow:hidden; /*box-shadow: 0px 1px 3px 1px  rgba(50, 50, 50, 0.35);*/
- height:105px; margin:0px; padding:0px; border-bottom:1px solid  rgba(0,0,0,0.20); margin-bottom:50px;
- /*position:fixed; left:0px; top:0px; right:0px; z-index:2000;*/ }
 #header{  overflow:hidden;   }
 .headerwrapper .logo {float:left; line-height:130px; margin-top:15px; }
 .headerwrapper nav ul{font-family:Arial; float:right; font-size:16px; font-weight:bold; margin-top:15px; }
-/*.headerwrapper nav  li{list-style:none; float:left; margin:20px; padding:15px; }
-.headerwrapper nav  li a {text-decoration:none; color:#313131; }
-*/
 .headerwrapper nav ul li {list-style:none; float:left; margin:20px; padding:15px;}
 .headerwrapper nav ul li a{text-decoration:none; color:#313131;}
-.gambar1 {align-content:  center}
-
 
 
 /*||||||||||||||||||||||||||||||||| BEST DISHES ||||||||||||||||||||||||||||||*/
 
 .bestdisheswrapper{height:442px; background:url(../images/www3.jpg) no-repeat center center fixed; background-size:cover; border-top:3px solid rgba(255,153,0,0.2);
  border-bottom:3px solid rgba(255,153,0,0.4);  text-align:center;}
- .bestdishes{}
+
  .bestdisheswrapper #bestdishes h2 {color:white; font-size:35px;  letter-spacing:3px; font-family:Economica-bold;; margin-top:30px;}
  .bestdisheswrapper #bestdishes h2::before{content:url(../images/rectangle.png); position:relative; margin-right:15px;
   top:-10px;}
@@ -59,27 +41,19 @@ float:left; margin-left:45px;}
  top:-10px;}
  .bestdisheswrapper h3{font-family:Economica-Regular; font-size:30px; text-transform:uppercase; letter-spacing:2px;}
 .item{float:left;  width:366px; margin-top:50px;}
-.item h3{ font-size:25px; color:white;}
+
 .item img{border:5px solid white;}
 .item2{float:left;  width:366px; margin-top:50px;}
-.item2 h3{ font-size:25px; color:white;}
+
 .item2 img{border:5px solid white;}
 .item3{float:left;  width:366px; margin-top:50px;}
-.item3 h3{ font-size:25px; color:white;}
+ h3{ font-size:25px; color:white;}
 .item3 img{border:5px solid white;}
-#bestdishes ul {list-style:none;}
-
-/********************** slider ********************/
-
-
-
-
-
 
 /*||||||||||||||||||||||||||||||||| BOOK ONLINE ||||||||||||||||||||||||||||||*/
 
 .bookonlinewrapper{text-align:center;}
-.bookonlinewrapper #bookonline{}
+
 .bookonlinewrapper #bookonline h3{ color:#cf0e1e; font-size:35px;  letter-spacing:8px; font-family:Economica-bold; margin-top:30px; margin-bottom:50px;}
 .bookonlinewrapper #bookonline h3::before{content:url(../images/rectangle.png); position:relative; margin-right:15px;
   top:-10px;}
@@ -100,11 +74,9 @@ float:left; margin-left:45px;}
 .persons{background:#383636;  width:300px; height:87px; background-image:url(../images/icon.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:white; font-size:25px; font-family:hansen; padding:0 30px;
  line-height:87px; background-position:95% 50%; margin-top:5px; }
 
-
  .booknow{ background:#ff5a0b; height:52px; border-radius:10px; border:0px; width:839px; margin-top:20px; border-bottom:5px solid #c84d29; margin-bottom:40px; font-family:OSWALD-BOLD; font-size:30px; color:white; line-height:47px; cursor:pointer;}
 
  .booknow{position:relative;}
-
 
 
 /*||||||||||||||||||||||||||||||||| CONTACT US ||||||||||||||||||||||||||||||*/
@@ -125,22 +97,10 @@ float:left; margin-left:45px;}
  .myimage{border:3px solid #ff5a0b; border-radius:5px; margin:0px 3px 0px 84px; position:relative;
  opacity:0.4; cursor:pointer;}
 
-.firstpop{position:relative;  left: -40px; top:180px;  z-index:999; opacity:1; width: 480px;}
-.secondpop{position:relative; left:-360px; top:180px; ; z-index:900; opacity:0;}
-.thirdpop{position:relative; left:300px; top:35px;  z-index:900; opacity:0; }
 .mahasiswa{position: relative; top: 175px;}
 #ijang{text-align: center; color: red;}
 #fian{align: left; color: red;}
 #nindi{align: right; color: red;}
-
-/************************ FOOTER *****************************/
-.footerwrapper{height:50px; background:#252b33; margin-top:-50px; border-top:4px solid #a8aaad;}
-footer{text-align:center; }
-footer h2{font-family:OSWALD-regular; font-size:20px; color:#dedede;}
-
-footer h2{margin-bottom:40px;}
-
-
 
 /*||||||||||||||||||||||||||||||||| COPY RIGHTS ||||||||||||||||||||||||||||||*/
 
