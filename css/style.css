@@ -1,6 +1,4 @@
 
-/* Credit:https://www.facebook.com/Mido.HHH */
-
 /*||||||||||||||||||||||||||||||||| GENERAL ||||||||||||||||||||||||||||||*/
 
 @font-face{font-family:OSWALD-BOLD; src:url(../fonts/OSWALD-BOLD.TTF);}
@@ -75,67 +73,7 @@ float:left; margin-left:45px;}
 
 
 
-.bestdisheswrapper .slider {
-	position: relative;
-	width: 1100px;;
-	height: 420px;
-	overflow: hidden;
-}
 
-.bestdisheswrapper .slides {
-	height: 100%;
-
-
-	/* Clear fix */
-
-
-	/**
-	 * Prevent blinking issue
-	 * Not tested. Experimental.
-	 */
-
-	-webkit-backface-visibility: hidden;
-	-webkit-transform-style: preserve-3d;
-}
-
-.bestdisheswrapper .slide {
-	height: 100%;
-	float: left;
-	clear: none;
-	width:1100px;
-}
-
-
-.bestdisheswrapper .slider-arrows {}
-
-.bestdisheswrapper .slider-arrow {
-	position: absolute;
-	display: block;
-	margin-bottom: -20px;
-	padding: 20px;
-}
-
-.bestdisheswrapper .slider-arrow--right { bottom: 55%; right: 0px; background:url(../images/bestdishesrightarrow.png) no-repeat; }
-.bestdisheswrapper .slider-arrow--left { bottom: 55%; left: 0px; background:url(../images/bestdishesleftarrow.png) no-repeat; }
-
-
-.bestdisheswrapper .slider-nav {
-	position: absolute;
-	bottom: 30px;
-}
-
-.bestdisheswrapper .slider-nav__item {
-	width: 12px;
-	height: 12px;
-	float: left;
-	clear: none;
-	display: block;
-	margin: 0 5px;
-	background: #fff;
-}
-
-.bestdisheswrapper .slider-nav__item:hover { background: #ccc; }
-.bestdisheswrapper .slider-nav__item--current { background: #ccc; }
 
 
 /*||||||||||||||||||||||||||||||||| BOOK ONLINE ||||||||||||||||||||||||||||||*/
@@ -202,42 +140,6 @@ footer h2{font-family:OSWALD-regular; font-size:20px; color:#dedede;}
 
 footer h2{margin-bottom:40px;}
 
-/**** Customer Reviews*****/
-
-.customerreview{width:366px;  float:left; margin-top:30px; }
-.review{margin-top:5px; text-align:left;}
-.review p{color:#a3c9e7; font-size:15px; font-family:hansen; }
-.review span2{color:#d6d6d6; font-size:26px; font-family:hansen;}
-.customerreview h2{text-align:left;}
-
-.review h4{color:#3d6e96; font-size:27px; font-family:oswald-regular; float:left; margin-left:14px; margin-top:7px; margin-bottom:7px;}
-.line{width:340px; height:1px; color:#72859e; background:#72859e;}
-.space{width:340px; height:1px; color:#72859e; background:#72859e; clear:both; position:relative; top:10px;}
-
-/**** socialize*****/
-
-
-.socialize{width:366px;  float:left; margin-top:30px;}
-.socialimgs{margin-top:5px; width:170px; float:left; margin-left:100px; text-align:left; }
-
-.socialimgs img {}
-.socialize h2{text-align:left;margin-left:100px;}
-
-/**** feedback*****/
-
-.sendfeedback{width:366px;  float:right; margin-top:30px; margin-bottom:30px; text-align:left;}
-.sendfeedback h2{ margin-left:3px;}
-
-.sendfeedback form input[type='text']{width:367px; height:57px; border-radius:5px; border:1px solid #0a131f;
-background:#32363d; color:white; font-size:18px; padding:5px;}
-
-.sendfeedback form textarea {width:367px; height:90px; border-radius:5px; border:1px solid #0a131f;
-background:#32363d; color:white; font-size:18px; padding:5px;}
-
-
-.sendfeedback form h6{color:#cccccc; font-size:18px; font-family:OSWALD-regular; margin-top:20px;}
-.sendfeedback form button{ background:#3d6e96; color:#1f527b; font-size:16px; font-family:OSWALD-regular; width:95px;
-height:29px; border:0px; border-radius:4px; margin-top:20px; cursor:pointer; }
 
 
 /*||||||||||||||||||||||||||||||||| COPY RIGHTS ||||||||||||||||||||||||||||||*/
