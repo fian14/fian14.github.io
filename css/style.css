@@ -1,5 +1,5 @@
 
-/*||||||||||||||||||||||||||||||||| GENERAL ||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||| UMUM ||||||||||||||||||||||||||||||*/
 
 @font-face{font-family:OSWALD-BOLD; src:url(../fonts/OSWALD-BOLD.TTF);}
 @font-face{font-family:OSWALD-regular; src:url(../fonts/OSWALD-REGULAR.TTF);}
@@ -16,30 +16,34 @@ body {background:url(../images/BG.jpg); margin:0px; padding:0px; font-family:han
 h5{color:#cf0f1e; font-family:Economica-Bold; font-size:39px; margin-bottom:30px; margin-left:45px;}
 .slides p{color:#454242; font-family:arial; width:530px; line-height:2em; font-weight:bold; font-size:18px;
 float:left; margin-left:45px;}
-.sliderwrapper .slides img .gambar1 {float:right; margin-right:150px;}
+.home .slides img .gambar1 {float:right; margin-right:150px;}
 .gambar1 {width: 400px; height: 60%; margin-left:  120px; margin-top: -90px}
 
 
 /*||||||||||||||||||||||||||||||||| HEADER ||||||||||||||||||||||||||||||*/
 
 #header{  overflow:hidden;   }
-.headerwrapper .logo {float:left; line-height:130px; margin-top:15px; }
-.headerwrapper nav ul{font-family:Arial; float:right; font-size:16px; font-weight:bold; margin-top:15px; }
-.headerwrapper nav ul li {list-style:none; float:left; margin:20px; padding:15px;}
-.headerwrapper nav ul li a{text-decoration:none; color:#313131;}
+.navi .logo {float:left; line-height:130px; margin-top:15px; }
+.navi nav ul{font-family:Arial; float:right; font-size:16px; font-weight:bold; margin-top:15px; }
+.navi nav ul li {list-style:none; float:left; margin:20px; padding:15px;}
+.navi nav ul li a{text-decoration:none; color:#313131;}
 
 
 /*||||||||||||||||||||||||||||||||| BEST DISHES ||||||||||||||||||||||||||||||*/
 
-.bestdisheswrapper{height:442px; background:url(../images/www3.jpg) no-repeat center center fixed; background-size:cover; border-top:3px solid rgba(255,153,0,0.2);
+.best_menu{height:442px; background:url(../images/www3.jpg) no-repeat center center fixed; background-size:cover; border-top:3px solid rgba(255,153,0,0.2);
  border-bottom:3px solid rgba(255,153,0,0.4);  text-align:center;}
 
- .bestdisheswrapper #bestdishes h2 {color:white; font-size:35px;  letter-spacing:3px; font-family:Economica-bold;; margin-top:30px;}
- .bestdisheswrapper #bestdishes h2::before{content:url(../images/rectangle.png); position:relative; margin-right:15px;
+ .best_menu #menu h2 {color:white; font-size:35px;  letter-spacing:3px; font-family:Economica-bold;; margin-top:30px;}
+
+/* garis */
+ .best_menu #menu h2::before{content:url(../images/rectangle.png); position:relative; margin-right:15px;
   top:-10px;}
- .bestdisheswrapper #bestdishes h2::after{content:url(../images/rectangle.png); position:relative;  margin-left:15px;
+ .best_menu #menu h2::after{content:url(../images/rectangle.png); position:relative;  margin-left:15px;
  top:-10px;}
- .bestdisheswrapper h3{font-family:Economica-Regular; font-size:30px; text-transform:uppercase; letter-spacing:2px;}
+ /* end of garis */
+
+ .best_menu h3{font-family:Economica-Regular; font-size:30px; text-transform:uppercase; letter-spacing:2px;}
 .item{float:left;  width:366px; margin-top:50px;}
 
 .item img{border:5px solid white;}
@@ -52,26 +56,26 @@ float:left; margin-left:45px;}
 
 /*||||||||||||||||||||||||||||||||| BOOK ONLINE ||||||||||||||||||||||||||||||*/
 
-.bookonlinewrapper{text-align:center;}
+.pesan_antar{text-align:center;}
 
-.bookonlinewrapper #bookonline h3{ color:#cf0e1e; font-size:35px;  letter-spacing:8px; font-family:Economica-bold; margin-top:30px; margin-bottom:50px;}
-.bookonlinewrapper #bookonline h3::before{content:url(../images/rectangle.png); position:relative; margin-right:15px;
+.pesan_antar #booking_dulu h3{ color:#cf0e1e; font-size:35px;  letter-spacing:8px; font-family:Economica-bold; margin-top:30px; margin-bottom:50px;}
+.pesan_antar #booking_dulu h3::before{content:url(../images/rectangle.png); position:relative; margin-right:15px;
   top:-10px;}
-  .bookonlinewrapper #bookonline h3::after{content:url(../images/rectangle.png); position:relative;  margin-left:15px;
+  .pesan_antar #booking_dulu h3::after{content:url(../images/rectangle.png); position:relative;  margin-left:15px;
  top:-10px;}
- .name{background:#383636;  width:470px; height:87px; background-image:url(../images/icon4.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:white; font-size:25px; font-family:hansen; padding:0 30px;
+ .nama{background:#383636;  width:470px; height:87px; background-image:url(../images/icon4.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:white; font-size:25px; font-family:hansen; padding:0 30px;
  line-height:87px; background-position:95% 50%; margin-bottom:20px; float:left;}
 
 .email{background:#383636;  width:470px; height:87px; background-image:url(../images/icon3.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:white; font-size:25px; font-family:hansen; padding:0 30px;
  line-height:87px; background-position:95% 50%; margin-bottom:20px; float:right; }
 
- .from{background:#383636;  width:300px; height:87px; background-image:url(../images/icon2.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:white; font-size:25px; font-family:hansen; padding:0 30px;
+ .dari{background:#383636;  width:300px; height:87px; background-image:url(../images/icon2.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:white; font-size:25px; font-family:hansen; padding:0 30px;
  line-height:87px; background-position:95% 50%; margin-top:5px; }
 
-.to{background:#383636;  width:300px; height:87px; background-image:url(../images/icon2.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:white; font-size:25px; font-family:hansen; padding:0 30px;
+.ke{background:#383636;  width:300px; height:87px; background-image:url(../images/icon2.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:white; font-size:25px; font-family:hansen; padding:0 30px;
  line-height:87px; background-position:95% 50%; margin-top:5px; }
 
-.persons{background:#383636;  width:300px; height:87px; background-image:url(../images/icon.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:white; font-size:25px; font-family:hansen; padding:0 30px;
+.orang{background:#383636;  width:300px; height:87px; background-image:url(../images/icon.png); background-position:7px 7px; background-repeat:no-repeat; border-radius:8px; border:0px; color:white; font-size:25px; font-family:hansen; padding:0 30px;
  line-height:87px; background-position:95% 50%; margin-top:5px; }
 
  .booknow{ background:#ff5a0b; height:52px; border-radius:10px; border:0px; width:839px; margin-top:20px; border-bottom:5px solid #c84d29; margin-bottom:40px; font-family:OSWALD-BOLD; font-size:30px; color:white; line-height:47px; cursor:pointer;}
@@ -81,14 +85,14 @@ float:left; margin-left:45px;}
 
 /*||||||||||||||||||||||||||||||||| CONTACT US ||||||||||||||||||||||||||||||*/
 
-.contactwrapper{margin-top:50px; text-align:center;}
-.contactwrapper h3{ color:#cf0e1e; font-size:35px;  letter-spacing:8px; font-family:Economica-bold; margin-top:30px; margin-bottom:50px;}
+.kontak_kami{margin-top:50px; text-align:center;}
+.kontak_kami h3{ color:#cf0e1e; font-size:35px;  letter-spacing:8px; font-family:Economica-bold; margin-top:30px; margin-bottom:50px;}
 
-.contactwrapper  h3::before{content:url(../images/rectangle.png); position:relative; margin-right:15px;
+.kontak_kami  h3::before{content:url(../images/rectangle.png); position:relative; margin-right:15px;
   top:-10px;}
-.contactwrapper  h3::after{content:url(../images/rectangle.png); position:relative;  margin-left:15px;
+.kontak_kami  h3::after{content:url(../images/rectangle.png); position:relative;  margin-left:15px;
  top:-10px;}
-  .contactwrapper .staff{ position:absolute;}
+  .kontak_kami .staff{ position:absolute;}
 
 .myimage2{border:3px solid #ff5a0b; border-radius:5px; margin-left: 208px; position:relative;
  opacity:0.4; cursor:pointer;}
@@ -141,6 +145,6 @@ height:29px; border:0px; border-radius:4px; margin-top:20px; cursor:pointer; }
 
 /*||||||||||||||||||||||||||||||||| COPY RIGHTS ||||||||||||||||||||||||||||||*/
 
- .copyrightswrapper{margin-top: 250px; height:20px; background:#3c4149; color:#f2f2f2; font-family:oswald-bold; font-size:15px; line-height:15px; text-align:center;}
+ .copyright{margin-top: 250px; height:20px; background:#3c4149; color:#f2f2f2; font-family:oswald-bold; font-size:15px; line-height:15px; text-align:center;}
 
   #copyrights a{color:#a3c9e7;}
