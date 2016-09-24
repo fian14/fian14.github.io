@@ -107,44 +107,47 @@ float:left; margin-left:45px;}
 #nindi{align: right; color: red;}
 
 /*||||||||||||||||||||||||||||||||| FOOTER ||||||||||||||||||||||||||||||*/
-.footerwraper {height:530px; margin-top: 200px; margin-bottom:40px; background:#3c4149; border-top:4px solid #a8aaad;}
+.footerwraper {height:530px; margin-top: 200px; background:#3c4149; border-top:4px solid #a8aaad;}
 footer{text-align: center;}
 footer h2{font-family:OSWALD-regular; font-size:20px; color:#dedede;}
 
 /** Komentar Pelanggan **/
-.customerreview{width:30%;  float:left; margin-top:30px; }
-.review{margin-top:5px; text-align:left;}
-.review p{color:#a3c9e7; font-size:15px; font-family:hansen; }
-.review span2{color:#d6d6d6; font-size:26px; font-family:hansen;}
-.customerreview h2{text-align:left;}
 
-review h4{color:#3d6e96; font-size:27px; font-family:oswald-regular; float:left; margin-left:14px; margin-top:7px; margin-bottom:7px;}
+.pelanggan{width:366px;  float:left; margin-top:30px; }
+.review{margin-top:5px; text-align:left;}
+.review p{color:#a3c9e7; font-size:15px; font-family:hansen; text-align: justify;}
+.review span2{color:#d6d6d6; font-size:26px; font-family:hansen;}
+.pelanggan h2{text-align:left;}
+
+.review h4{color:#dedede; font-size:27px; font-family:oswald-regular; float:left; margin-left:14px; margin-top:7px; margin-bottom:7px;}
 .line{width:340px; height:1px; color:#72859e; background:#72859e;}
 .space{width:340px; height:1px; color:#72859e; background:#72859e; clear:both; position:relative; top:10px;}
 
 /** Media Sosial **/
-.socialize{width:366px;  float:left; margin-top:30px;}
+
+.media{width:366px;  float:left; margin-top:30px;}
 .socialimgs{margin-top:5px; width:170px; float:left; margin-left:100px; text-align:left; }
-.socialize h2{text-align:left;margin-left:100px;}
 
-/**** feedback*****/
+.socialimgs img {}
+.media h2{text-align:left;margin-left:100px;}
 
-.feedback{width:366px;  float:right; margin-top:30px; margin-bottom:30px; text-align:left;}
-.feedback h2{ margin-left:3px;}
-.feedback form{}
-.feedback form input[type='text']{width:367px; height:57px; border-radius:5px; border:1px solid #0a131f; 
+/** Tanggapan **/
+.tanggapan{width:366px;  float:right; margin-top:30px; margin-bottom:30px; text-align:left;}
+.tanggapan h2{ margin-left:3px;}
+.tanggapan form{}
+.tanggapan form input[type='text']{width:367px; height:57px; border-radius:5px; border:1px solid #0a131f; 
 background:#32363d; color:white; font-size:18px; padding:5px;}
 
-.feedback form textarea {width:367px; height:90px; border-radius:5px; border:1px solid #0a131f; 
+.tanggapan form textarea {width:367px; height:90px; border-radius:5px; border:1px solid #0a131f; 
 background:#32363d; color:white; font-size:18px; padding:5px;}
 
 
-.feedback form h6{color:#cccccc; font-size:18px; font-family:OSWALD-regular; margin-top:20px;}
-.feedback form button{ background:#3d6e96; color:#1f527b; font-size:16px; font-family:OSWALD-regular; width:95px;
+.tanggapan form h6{color:#cccccc; font-size:18px; font-family:OSWALD-regular; margin-top:20px;}
+.tanggapan form button{ background:#3d6e96; color:#dedede; font-size:16px; font-family:OSWALD-regular; width:95px;
 height:29px; border:0px; border-radius:4px; margin-top:20px; cursor:pointer; }
 
 /*||||||||||||||||||||||||||||||||| COPY RIGHTS ||||||||||||||||||||||||||||||*/
 
- .copyright{margin-top: 250px; height:20px; background:#3c4149; color:#f2f2f2; font-family:oswald-bold; font-size:15px; line-height:15px; text-align:center;}
+ .copyright{margin-top: 0px; height:20px; background:#3c4149; color:#f2f2f2; font-family:oswald-bold; font-size:15px; line-height:15px; text-align:center;}
 
   #copyrights a{color:#a3c9e7;}
