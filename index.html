@@ -11,7 +11,7 @@
 
 <div class="navi">
 	<div id="header" class="container">
-		<div class="logo"> <a href="index.html"><img src="images/friendzonelogo2.jpg" alt="logo" width="90" height="93"></a> </div> <!--end of Logo-->
+		<div class="logo"> <a href="index.html"><img src="images/logo.png" alt="logo" width="90" height="93"></a> </div> <!--end of Logo-->
         <nav>
             <ul id="navigations">
                 <li><a href="#navigations">HOMES</a></li>
@@ -51,8 +51,6 @@
     <div id="menu" class="container">
 		 <h2>MENU TERLARIS</h2>
       <div>
-      		    <ul class="slides">
-          	 	 <li>
                     <div class="item">
 											<!-- gambar1 -->
                           <img src="images/sroto.jpg" width="226" height="225" alt="sliderimg">
@@ -68,8 +66,6 @@
                           <img src="images/pecel.jpg " width="226" height="225" alt="sliderimg">
                           <h3>Pecel</h3>
                       </div> <!-- end of item-->
-                  </li>
-        </ul>
       </div>
     </div> <!-- end of bestmenu-->
 </div> <!-- end of menu -->
@@ -85,7 +81,7 @@
     	<input type="text" class="dari" placeholder="dd-mm-yyyy">
     	<input type="text" class="ke" placeholder="dd-mm-yyyy">
     	<input type="text" class="orang" placeholder="Jumlah Orang">
-      <button class="booknow"> Pesan Sekarang </button>
+      <button class="booknow" onclick="pesan()"> Pesan Sekarang </button>
     </form>
     </div>
 </div> <!-- end of pesan online -->
@@ -164,7 +160,7 @@
                 <input type="text" class="mobilenumber">
                 <h6>Pesan :</h6>
                 <textarea></textarea>
-                <button>KIRIM </button>
+                <button onclick="tanggapan()">KIRIM </button>
             </form>
 	    </div>
 	</footer>
@@ -177,6 +173,22 @@
  	   <p>Copyright 2016 by Informatics Diponegoro University All Rights Reserved</p>
     </div> <!-- end of copyrights-->
 </div> <!-- end of website-->
+
+<!--============ JAVASCRIPTS ============-->
+
+<!-- PopUp pesan -->
+<script>
+function pesan() {
+    alert("Terima kasih sudah memesan. Pesanan anda akan segera kami proses.");
+}
+</script>
+
+<!-- Popup tanggapan -->
+<script>
+function tanggapan() {
+    alert("Terima kasih sudah memberikan tanggapan");
+}
+</script>
 
 </body>
 </html>
